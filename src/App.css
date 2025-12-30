@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100vw;
+
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 100vw;
+     margin-top: 2rem;
+}
+
+.customer-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 30rem;
+}
+
+.view {
+   
+    padding: 0.5rem;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
+ul{
+    list-style-type: none;
+}
