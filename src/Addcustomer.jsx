@@ -9,6 +9,7 @@ const Addcustomer = () => {
     // const [customers, SetCustomers] = useState([]);
     const dispatch = useDispatch()
 
+    
     function AdddingCustomer() {
         if (input) {
             // SetCustomers((previousState) => [...previousState, input])
@@ -21,7 +22,6 @@ const Addcustomer = () => {
         <>
             <div className="main">
                 <div className="con">
-
                 <h1> React Redux Customer Example </h1>
                 <h3>Add New Customer</h3>
                 <input type="text" value={input} onChange={(e) => SetInput(e.target.value)} />
